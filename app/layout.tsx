@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description: 'استوديو بكسل - مبادرة شبابية تقنية لتصميم وتطوير ألعاب رقمية تفاعلية وهادفة تخدم المجتمع',
   keywords: ['pixel', 'بكسل', 'ألعاب', 'تعليمية', 'توعوية', 'استوديو', 'game studio'],
   icons: {
-    icon: '/pixel-web.jpeg', // هذا هو اسم صورتك التي رفعتها
+    icon: '/pixel-web.jpeg', // name of pixel image 
     apple: '/pixel-web.jpeg',
   },
 }

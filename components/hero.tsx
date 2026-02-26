@@ -51,17 +51,15 @@ export default function Hero() {
 
       <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
         <div className="relative">
-          <div className="pixel-border-primary p-1 bg-card">
-            <Image
-              src="/images/pixel-logo.jpeg"
-              alt="Pixel Studio Logo"
-              width={180}
-              height={180}
-              className="block rounded-full"
-              style={{ imageRendering: "auto" }}
-              priority
-            />
-          </div>
+          <Image
+            src="/images/pixel-logo.jpeg"
+            alt="Pixel Studio Logo"
+            width={180}
+            height={180}
+            className="block rounded-full"
+            style={{ imageRendering: "auto" }}
+            priority
+          />
         </div>
 
         <div className="flex flex-col items-center gap-5">

@@ -50,12 +50,21 @@ export default function Hero() {
       <PixelStars />
 
       <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
-        <Image
-          src="/images/pixel-logo.jpeg"
-          alt="Pixel Studio Logo"
-          width={180}
-          height={180}
-          className="rounded-full animate-bounce"
+        <div className="relative">
+          <div className="pixel-border-primary p-1 bg-card">
+            <Image
+              src="/images/pixel-logo.jpeg"
+              alt="Pixel Studio Logo"
+              width={180} 
+              height={180}
+              className="block"
+              style={{ imageRendering: "auto" }}
+              priority
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center gap-5">
           <h1
             className="text-4xl md:text-6xl font-bold text-accent tracking-wider"
             style={{ fontFamily: "var(--font-pixel)" }}

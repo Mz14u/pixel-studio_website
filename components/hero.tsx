@@ -36,7 +36,8 @@ export default function Hero() {
       <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
         <div className="relative">
           <div className="pixel-border-primary p-1 bg-card">
-            <Image src="/images/pixel-logo.jpeg" alt="Pixel Studio Logo" width={180} height={180} className="rounded-full animate-bounce" priority />
+            {/* تم حذف animate-bounce ليكون الشعار ثابتاً */}
+            <Image src="/images/pixel-logo.jpeg" alt="Pixel Studio Logo" width={180} height={180} className="rounded-full" priority />
           </div>
         </div>
         <div className="flex flex-col items-center gap-5">

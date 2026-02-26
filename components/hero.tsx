@@ -55,12 +55,7 @@ export default function Hero() {
           alt="Pixel Studio Logo"
           width={180}
           height={180}
-          className="rounded-full"
-          style={{ imageRendering: "auto" }}
-          priority
-        />
-
-        <div className="flex flex-col items-center gap-5">
+          className="rounded-full animate-bounce"
           <h1
             className="text-4xl md:text-6xl font-bold text-accent tracking-wider"
             style={{ fontFamily: "var(--font-pixel)" }}

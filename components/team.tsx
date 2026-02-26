@@ -50,8 +50,8 @@ export default function Team() {
     {
       nameAr: "رسيل الخميس",
       nameEn: "Raseel Al-Khamis",
-      roleAr: "مبرمجة",
-      roleEn: "Programmer",
+      roleAr: "مصمم ومطور ألعاب",
+      roleEn: "Game Designer & Developer",
       gender: "female" as const,
       color: "bg-primary",
     },

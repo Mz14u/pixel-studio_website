@@ -15,7 +15,7 @@ export default function Footer() {
             alt="Pixel Studio Logo"
             width={36}
             height={36}
-            className=""
+            className="rounded-full"
             style={{ imageRendering: "auto" }}
           />
           <span

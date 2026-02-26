@@ -57,7 +57,7 @@ export default function Hero() {
               alt="Pixel Studio Logo"
               width={180}
               height={180}
-              className="block"
+              className="block rounded-full"
               style={{ imageRendering: "auto" }}
               priority
             />

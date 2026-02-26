@@ -27,7 +27,7 @@ export default function Navbar() {
             alt="Pixel Studio Logo"
             width={40}
             height={40}
-            className="rounded-none"
+            className="rounded-full"
             style={{ imageRendering: "auto" }}
           />
           <span className="font-[var(--font-pixel)] text-sm text-accent tracking-wider">

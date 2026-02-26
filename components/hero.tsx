@@ -34,12 +34,19 @@ export default function Hero() {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pixel-grid-bg scanlines">
       <PixelStars />
       <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
+        
+        {/* الشعار بدون إطار وبدون أنميشن قفز */}
         <div className="relative">
-          <div className="pixel-border-primary p-1 bg-card">
-            {/* تم حذف animate-bounce ليكون الشعار ثابتاً */}
-            <Image src="/images/pixel-logo.jpeg" alt="Pixel Studio Logo" width={180} height={180} className="rounded-full" priority />
-          </div>
+          <Image 
+            src="/images/pixel-logo.jpeg" 
+            alt="Pixel Studio Logo" 
+            width={180} 
+            height={180} 
+            className="rounded-full object-cover" 
+            priority 
+          />
         </div>
+
         <div className="flex flex-col items-center gap-5">
           <h1 className="text-4xl md:text-6xl font-bold text-accent tracking-wider" style={{ fontFamily: "var(--font-pixel)" }}>PIXEL</h1>
           <p className="text-xl md:text-2xl text-foreground font-semibold">{t("استوديو بكسل", "Pixel Studio")}</p>
@@ -49,6 +56,7 @@ export default function Hero() {
           </p>
           <span className="pixel-cursor" />
         </div>
+
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
           <a href="#about" className="pixel-btn bg-primary px-8 py-3 text-sm font-medium text-primary-foreground">{t("تعرّف علينا", "About Us")}</a>
           <a href="#contact" className="pixel-btn bg-secondary border-2 border-border px-8 py-3 text-sm font-medium text-foreground">{t("تواصل معنا", "Contact Us")}</a>

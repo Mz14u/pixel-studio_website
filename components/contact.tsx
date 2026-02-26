@@ -28,7 +28,7 @@ export default function Contact() {
     {
       icon: Globe,
       label: t("الموقع", "Website"),
-      value: "pixel-studio.com",
+      value: "pixel-play-sa.com",
       href: "https://pixel-play-sa.com",
     },
   ]

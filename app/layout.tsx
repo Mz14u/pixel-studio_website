@@ -16,7 +16,7 @@ const pressStart2P = Press_Start_2P({
 })
 
 export const metadata: Metadata = {
-  title: 'Pixel Studio | استوديو بكسل',
+  title: 'Pixel Studio | استديو بيكسل',
   description: 'استوديو بكسل - مبادرة شبابية تقنية لتصميم وتطوير ألعاب رقمية تفاعلية وهادفة تخدم المجتمع',
   keywords: ['pixel', 'بكسل', 'ألعاب', 'تعليمية', 'توعوية', 'استوديو', 'game studio'],
   icons: {

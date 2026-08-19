@@ -16,13 +16,13 @@ export default function Contact() {
     {
       icon: MapPin,
       label: t("المقر", "Location"),
-      value: t("المملكة العربية السعودية", "Saudi Arabia"),
+      value: t("منطقة الحدود الشمالية، المملكة العربية السعودية", "Northern Borders, Saudi Arabia"),
       href: null,
     },
     {
       icon: Linkedin,
       label: t("لينكد إن", "LinkedIn"),
-      value: "Pixel Studio",
+      value: t("استديو بيكسل", "Pixel Studio"),
       href: "https://www.linkedin.com/posts/pixelksa_%D8%AB%D9%84%D8%A7%D8%AB%D8%A9-%D9%82%D8%B1%D9%88%D9%86-%D9%85%D8%B1%D8%AA-%D9%88%D8%A7%D9%86%D9%82%D8%B6%D8%AA-%D9%83%D8%AA%D8%A8%D8%AA-%D8%A8%D8%AD%D8%B1%D9%88%D9%81-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D8%B7%D8%A7%D8%A1-activity-7431433899999780864-d66D?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFeqgD0B1P7rPo4jZegXsE0nQSVTUlywOuchttps://linkedin.com/company/pixel-studio",
     },
     {

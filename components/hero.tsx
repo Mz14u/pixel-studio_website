@@ -49,11 +49,12 @@ export default function Hero() {
 
         <div className="flex flex-col items-center gap-5">
           <h1 className="text-4xl md:text-6xl font-bold text-accent tracking-wider" style={{ fontFamily: "var(--font-pixel)" }}>PIXEL</h1>
-          <p className="text-xl md:text-2xl text-foreground font-semibold">{t("استوديو بكسل", "Pixel Studio")}</p>
+          <p className="text-xl md:text-2xl text-foreground font-semibold">{t("استديو بيكسل", "Pixel Studio")}</p>
           <div className="pixel-divider w-32 mx-auto" />
           <p className="max-w-2xl text-base text-muted-foreground leading-relaxed">
-            {t("مبادرة شبابية تقنية لتصميم وتطوير ألعاب رقمية تفاعلية وهادفة تسهم في معالجة قضايا مجتمعية وتعزز الوعي بأساليب حديثة ومبتكرة", "A youth tech initiative for designing and developing interactive, purposeful digital games that address social issues and raise awareness through innovative approaches")}
+            {t("جمعية سعودية غير ربحية توظف الألعاب والتجارب التفاعلية لصناعة أثر تعليمي وصحي وثقافي وبيئي ومجتمعي.", "A Saudi nonprofit using games and interactive experiences to create educational, health, cultural, environmental, and social impact.")}
           </p>
+          <p className="text-lg font-semibold text-accent">{t("اللعب وسيلة... والأثر هو الهدف.", "Play is the means... impact is the goal.")}</p>
           <span className="pixel-cursor" />
         </div>
 

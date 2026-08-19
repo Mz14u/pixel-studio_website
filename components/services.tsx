@@ -1,6 +1,6 @@
 "use client"
 
-import { Joystick, GraduationCap, HeartPulse, Leaf, Brain, Sparkles } from "lucide-react"
+import { GraduationCap, HeartPulse, Landmark, Leaf, Brain, School, Gamepad2, Globe2 } from "lucide-react"
 import { useLang } from "./language-context"
 
 export default function Services() {
@@ -8,53 +8,55 @@ export default function Services() {
 
   const services = [
     {
-      icon: Joystick,
-      title: t("تصميم ألعاب تفاعلية", "Interactive Game Design"),
-      description: t(
-        "تطوير ألعاب رقمية بتجارب لعب ممتعة وتفاعلية تناسب مختلف الفئات العمرية",
-        "Developing digital games with engaging and interactive gameplay for all age groups"
-      ),
-    },
-    {
       icon: GraduationCap,
-      title: t("ألعاب تعليمية", "Educational Games"),
+      title: t("تجارب تعليمية", "Educational Experiences"),
       description: t(
-        "ألعاب تعزز التعلم وتنقل المعرفة بأساليب مبتكرة وحديثة من خلال التجربة التفاعلية",
-        "Games that enhance learning and deliver knowledge through innovative interactive experiences"
+        "نقدم التعليم والتدريب عبر ألعاب تعليمية ومحاكاة ومختبرات افتراضية وتجارب لحل المشكلات.",
+        "We deliver learning and training through educational games, simulations, virtual labs, and problem-solving experiences."
       ),
     },
     {
       icon: HeartPulse,
-      title: t("ألعاب الصحة النفسية", "Mental Health Games"),
+      title: t("تجارب صحية وتوعوية", "Health & Awareness Experiences"),
       description: t(
-        "ألعاب تسهم في تعزيز الصحة النفسية ونشر الوعي حول أهميتها في المجتمع",
-        "Games that promote mental health and spread awareness about its importance in society"
+        "نقدم التوعية الصحية والعادات الصحية والنشاط البدني عبر ألعاب تفاعلية تثقيفية دون ادعاءات علاجية.",
+        "We deliver health awareness, healthy habits, and physical activity through educational interactive games without treatment claims."
+      ),
+    },
+    {
+      icon: Landmark,
+      title: t("تجارب ثقافية وتراثية", "Cultural & Heritage Experiences"),
+      description: t(
+        "نحوّل التاريخ والتراث والحرف والقصص والمواقع والمتاحف إلى ألعاب وتجارب تفاعلية.",
+        "We turn history, heritage, crafts, stories, sites, and museums into games and interactive experiences."
       ),
     },
     {
       icon: Leaf,
-      title: t("ألعاب الاستدامة", "Sustainability Games"),
+      title: t("تجارب بيئية", "Environmental Experiences"),
       description: t(
-        "محتوى تفاعلي يدعم مفاهيم الاستدامة البيئية والسلوكيات الإيجابية اليومية",
-        "Interactive content that supports environmental sustainability and positive daily behaviors"
+        "نقدم التوعية بالبيئة والتشجير وترشيد المياه والطاقة وإعادة التدوير عبر ألعاب بيئية تفاعلية.",
+        "We deliver environmental awareness through interactive games about planting, water, energy, recycling, and sustainability."
       ),
     },
     {
       icon: Brain,
-      title: t("ورش تدريبية", "Training Workshops"),
+      title: t("تجارب اجتماعية", "Social Experiences"),
       description: t(
-        "برامج تدريبية في تصميم وتطوير الألعاب للشباب والمهتمين بصناعة الألعاب",
-        "Training programs in game design and development for youth and gaming enthusiasts"
+        "نستخدم الألعاب والتجارب التفاعلية لنشر الوعي بالقضايا والمفاهيم الاجتماعية بطريقة مبتكرة.",
+        "We use games and interactive experiences to raise awareness of social issues and concepts."
       ),
     },
     {
-      icon: Sparkles,
-      title: t("استشارات تقنية", "Technical Consulting"),
+      icon: School,
+      title: t("محاكاة وتدريب", "Simulation & Training"),
       description: t(
-        "جلسات إرشاد واستشارات في مجال تطوير الألعاب وتجربة المستخدم",
-        "Mentoring sessions and consulting in game development and user experience"
+        "نطوّر محاكاة تعليمية ومهنية وتجارب افتراضية للمعارض والمتاحف والتدريب.",
+        "We develop educational and professional simulations and virtual experiences for exhibitions, museums, and training."
       ),
     },
+    { icon: Gamepad2, title: t("ألعاب هادفة", "Purposeful Games"), description: t("نصنع ألعابًا تجمع بين المتعة والفائدة والتعلم وصناعة الأثر.", "We create games that combine enjoyment, learning, and meaningful impact.") },
+    { icon: Globe2, title: t("تجارب تفاعلية رقمية", "Digital Interactive Experiences"), description: t("نحوّل المعرفة والثقافة والرسائل التوعوية إلى تجارب رقمية تفاعلية.", "We turn knowledge, culture, and awareness messages into digital interactive experiences.") },
   ]
 
   return (
@@ -68,13 +70,13 @@ export default function Services() {
             {t("// خدماتنا", "// SERVICES")}
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
-            {t("ماذا نقدم", "What We Offer")}
+            {t("ماذا نصنع؟", "What We Create")}
           </h2>
           <div className="pixel-divider w-24 mx-auto mb-6" />
           <p className="max-w-2xl mx-auto text-muted-foreground leading-relaxed">
             {t(
-              "نقدم مجموعة من الخدمات والمنتجات التي تجمع بين التقنية والإبداع لخدمة المجتمع",
-              "We offer a range of services and products that combine technology and creativity to serve the community"
+              "مجالات عمل واهتمام توظف الألعاب والتقنيات التفاعلية لصناعة أثر حقيقي.",
+              "Areas of work and interest that use games and interactive technology to create real impact."
             )}
           </p>
         </div>

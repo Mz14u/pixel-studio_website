@@ -13,8 +13,10 @@ export default function Navbar() {
     { label: t("الرئيسية", "Home"), href: "#hero" },
     { label: t("من نحن", "About"), href: "#about" },
     { label: t("رؤيتنا", "Vision"), href: "#vision" },
-    { label: t("خدماتنا", "Services"), href: "#services" },
-    { label: t("الفريق", "Team"), href: "#team" },
+    { label: t("ماذا نصنع؟", "What We Create"), href: "#services" },
+    { label: t("مشاريعنا", "Projects"), href: "#projects" },
+    { label: t("الأعضاء", "Members"), href: "#team" },
+    { label: t("الشركاء", "Partners"), href: "#partners" },
     { label: t("تواصل معنا", "Contact"), href: "#contact" },
   ]
 

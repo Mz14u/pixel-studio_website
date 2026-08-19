@@ -7,11 +7,11 @@ export default function Vision() {
   const { t } = useLang()
 
   const objectives = [
-    t("تمكين الشباب من اكتساب مهارات تصميم وتطوير الألعاب الرقمية", "Empower youth with game design and development skills"),
-    t("إنتاج ألعاب رقمية هادفة تعالج قضايا الصحة النفسية والاستدامة", "Produce purposeful games addressing mental health and sustainability"),
-    t("تعزيز مفهوم التمكين الرقمي والمجتمعي من خلال إشراك الشباب", "Promote digital and community empowerment through youth engagement"),
-    t("دعم التحول الرقمي عبر توظيف الألعاب كوسيلة تعليمية وتوعوية", "Support digital transformation using games as educational tools"),
-    t("بناء مجتمع شبابي تقني يساهم في تطوير المحتوى الرقمي المحلي", "Build a tech youth community contributing to local digital content"),
+    t("الألعاب التعليمية والتدريبية والمحاكاة", "Educational games, training, and simulation"),
+    t("الألعاب الصحية والتوعية بالعادات والصحة النفسية", "Health games and awareness of healthy habits and mental health"),
+    t("الألعاب الثقافية والتراثية وإبراز مناطق المملكة", "Cultural and heritage games highlighting Saudi regions"),
+    t("الألعاب البيئية والاستدامة والحياة الفطرية", "Environmental games, sustainability, and wildlife"),
+    t("الألعاب الاجتماعية والتجارب التفاعلية الرقمية", "Social games and digital interactive experiences"),
   ]
 
   return (
@@ -25,7 +25,7 @@ export default function Vision() {
             {t("// رؤيتنا ورسالتنا", "// VISION & MISSION")}
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground text-balance">
-            {t("نصنع المستقبل بالإبداع والتقنية", "Crafting the Future with Creativity & Technology")}
+            {t("الألعاب الهادفة تصنع أثرًا", "Purposeful Games Create Impact")}
           </h2>
           <div className="pixel-divider w-24 mx-auto mt-6" />
         </div>
@@ -42,8 +42,8 @@ export default function Vision() {
               </h3>
               <p className="text-muted-foreground leading-relaxed text-base">
                 {t(
-                  "أن تكون مبادرة بكسل (Pixel) منصة شبابية رائدة في تصميم الألعاب الرقمية الهادفة، تسهم في تمكين الشباب وصناعة محتوى تفاعلي مبتكر يعزز الوعي المجتمعي ويحسن جودة الحياة بطريقة رقمية مستدامة.",
-                  "To be a leading youth platform in designing purposeful digital games, empowering young people and creating innovative interactive content that enhances social awareness and improves quality of life through sustainable digital means."
+                  "أن يكون استديو بيكسل جهة رائدة في توظيف الألعاب والتجارب التفاعلية لخدمة الإنسان والثقافة والمجتمع في المملكة.",
+                  "To be a leading Saudi nonprofit using games and interactive experiences to serve people, culture, and society across the Kingdom."
                 )}
               </p>
             </div>
@@ -60,8 +60,8 @@ export default function Vision() {
               </h3>
               <p className="text-muted-foreground leading-relaxed text-base">
                 {t(
-                  "تمكين الشباب من اكتساب مهارات تصميم وتطوير الألعاب الرقمية وتوظيفها في إنتاج ألعاب تفاعلية تخدم قضايا مجتمعية مثل الصحة النفسية، السلوكيات الإيجابية، والاستدامة، من خلال برامج تدريبية ومشاريع تطبيقية تحقق أثراً مجتمعياً ملموساً وتدعم التحول الرقمي.",
-                  "Empowering youth to acquire game design and development skills and utilize them in producing interactive games that serve social causes such as mental health, positive behaviors, and sustainability, through training programs and applied projects that achieve tangible social impact and support digital transformation."
+                  "نستخدم قوة الألعاب لصناعة تجارب تعليمية وصحية وثقافية ومجتمعية تفاعلية، مع الالتزام بأن يكون المحتوى الصحي توعويًا وتعليميًا دون ادعاءات علاجية غير مثبتة.",
+                  "We use the power of games to create educational, health, cultural, and social interactive experiences, with health content focused on education and awareness without unsupported medical claims."
                 )}
               </p>
             </div>
@@ -71,7 +71,7 @@ export default function Vision() {
         <div className="mt-16">
           <h3 className="text-xl font-bold text-foreground mb-8 text-center flex items-center justify-center gap-3">
             <span className="pixel-divider w-12 inline-block" />
-            {t("أهدافنا", "Our Goals")}
+            {t("مجالات الأثر", "Areas of Impact")}
             <span className="pixel-divider w-12 inline-block" />
           </h3>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">

@@ -44,13 +44,13 @@ export default function About() {
             {t("// من نحن", "// ABOUT US")}
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
-            {t("نحول الألعاب إلى أداة للتغيير الإيجابي", "We Turn Games Into Tools for Positive Change")}
+            {t("اللعب وسيلة... والأثر هو الهدف", "Play is the means... impact is the goal")}
           </h2>
           <div className="pixel-divider w-24 mx-auto mb-6" />
           <p className="max-w-3xl mx-auto text-muted-foreground leading-relaxed text-base">
             {t(
-              "بكسل هي مبادرة شبابية تقنية تهدف إلى تمكين الشباب من تصميم وتطوير ألعاب رقمية تفاعلية وهادفة تسهم في معالجة قضايا مجتمعية معاصرة، من خلال تحويل الرسائل التوعوية والتعليمية إلى تجارب رقمية ممتعة وسهلة الوصول.",
-              "Pixel is a youth tech initiative that empowers young people to design and develop interactive, purposeful digital games that address contemporary social issues by transforming educational and awareness messages into engaging and accessible digital experiences."
+              "استديو بيكسل جهة سعودية غير ربحية من منطقة الحدود الشمالية، توظف الألعاب والتجارب التفاعلية لصناعة أثر في التعليم والصحة والثقافة والبيئة والمجتمع.",
+              "Pixel Studio is a Saudi nonprofit from Northern Borders using games and interactive experiences to create impact in education, health, culture, the environment, and society."
             )}
           </p>
         </div>
